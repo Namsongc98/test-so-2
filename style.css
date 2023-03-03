@@ -67,8 +67,7 @@ body {
 
   margin: 10px;
 }
-.article-time {
-}
+
 .article-body__img {
   margin: 10px 0;
   width: 100%;
@@ -120,6 +119,14 @@ body {
 }
 .article-footer__text {
   line-height: 40px;
+}
+@media only screen and(
+  max-width:768px)
+{
+  .main{
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
 }
 /* right */
 .section-right {
@@ -194,6 +201,7 @@ body {
 }
 .tag-wp {
   display: flex;
+  flex-wrap: wrap;
 }
 .tag-item {
   list-style: none;
@@ -205,4 +213,39 @@ body {
 }
 .Inspinration-title {
   color: white;
+  padding: 10px;
+}
+.img-wp {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: white;
+  margin-top: 10px;
+}
+.img-child {
+  width: 40%;
+  margin: 20px auto;
+}
+.icon-follow {
+  padding: 10px;
+  background-color: white;
+}
+.Supscribe-input {
+  width: 100%;
+  height: 40px;
+  margin: 15px 0;
+  padding: 5px;
+}
+.Supscribe-end {
+  width: 100%;
+  height: 40px;
+  background-color: red;
+  color: white;
+  text-align: center;
+  line-height: 25px;
+  border: none;
+}
+.Supscribe-Wp {
+  padding: 20px;
+  background-color: white;
 }
